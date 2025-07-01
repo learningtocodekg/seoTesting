@@ -4,25 +4,25 @@ import Link from 'next/link';
 const HomePage = () => {
   const products = [
     {
-      name: 'StrideForm Urban Glide',
-      description: 'Sleek design for city adventures',
-      price: 89.99,
+      name: 'Kaareen Pulse Runner',
+      description: 'Lightweight for optimal speed',
+      price: 109.99,
       bgGradient: 'from-gray-200 to-gray-300',
       innerBg: 'bg-gray-400',
       textColor: 'text-gray-700',
     },
     {
-      name: 'StrideForm Trailblazer',
-      description: 'Durable for rugged terrains',
+      name: 'Kaareen Pulse Runner',
+      description: 'Lightweight for optimal speed',
       price: 109.99,
       bgGradient: 'from-gray-600 to-gray-500',
       innerBg: 'bg-gray-700',
       textColor: 'text-white',
     },
     {
-      name: 'StrideForm Performance Run',
+      name: 'Kaareen Pulse Runner',
       description: 'Lightweight for optimal speed',
-      price: 79.99,
+      price: 109.99,
       bgGradient: 'from-blue-400 to-teal-400',
       innerBg: 'bg-blue-500',
       textColor: 'text-white',

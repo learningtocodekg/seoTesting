@@ -1,3 +1,8 @@
+
+
+//DELETE the page you don't want visible and then copy this page back if u want to add a page
+//MAKE SURE TO CHANGE THE const ProductPage_ to the page number at the end if its page 7 then const ProductPage7 this will be fine in line 10 and one of the final lines of code
+
 "use client";
 
 import React, { useState } from 'react';
@@ -6,7 +11,7 @@ const ProductPage = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'StrideForm Pulse Runner',
+    name: 'Kaareen Pulse Runner 1',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +24,7 @@ const ProductPage = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The StrideForm Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
   };
 
   return (

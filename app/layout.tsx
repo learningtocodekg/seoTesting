@@ -4,7 +4,7 @@ import Navigation from './Components/NavBar';
 
 
 export const metadata: Metadata = {
-  title: 'StrideForm - Step into Your Potential',
+  title: 'Kaareen - Step into Your Potential',
   description: 'Discover footwear that blends comfort, style, and performance.',
 };
 
