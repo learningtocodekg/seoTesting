@@ -72,29 +72,6 @@ const Navigation = () => {
             </button>
           </Link>
 
-          <Link href="/product/product5meta">
-            <button
-              onClick={() => setCurrentPage('product5meta')}
-              className={`text-base font-semibold transition-colors duration-300 ${
-                currentPage === 'product3meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
-              } hover:text-gray-900 px-2 py-1`}
-            >
-              Product 5
-            </button>
-          </Link>
-
-          <Link href="/product/product6meta">
-            <button
-              onClick={() => setCurrentPage('product6meta')}
-              className={`text-base font-semibold transition-colors duration-300 ${
-                currentPage === 'product2meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
-              } hover:text-gray-900 px-2 py-1`}
-            >
-              Product 6
-            </button>
-          </Link>
-
-
     
 
         </div>

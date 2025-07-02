@@ -8,7 +8,7 @@ const ProductPage = () => {
   const product = {
     name: 'Kaareen Pulse Runner 1',
     category: "Men's Running Shoes",
-    price: 120,
+    price: 120.00,
     rating: 4.5,
     reviews: 120,
     ratingBreakdown: [
