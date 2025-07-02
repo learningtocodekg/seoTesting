@@ -18,7 +18,7 @@ const ProductPage = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner. Made in China',
+      "The Kaareen A is a unisex running shoe designed for both casual runners and competitive athletes. It features a breathable engineered mesh upper composed of 80% recycled polyester, providing enhanced airflow and flexibility. The midsole incorporates dual-density EVA foam for balanced cushioning and energy return, while the outsole is made from carbon rubber with a multi-directional tread pattern for increased durability and traction. The shoe weighs approximately 9.2 oz (men’s size 9) and has a 6 mm heel-to-toe drop. Internal heel counters offer added stability. Ideal for road surfaces, the Kaareen A is available in sizes US 5–13. All components are PFC-free and designed with sustainability in mind.",
   };
 
   return (

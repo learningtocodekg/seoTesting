@@ -19,7 +19,29 @@ const ProductPage2 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner. Made in Italy.',
+      `Kaareen A – Technical Overview
+
+Unisex road running shoe
+
+Upper: Engineered mesh, 80% recycled polyester
+
+Midsole: Dual-density EVA foam
+
+Outsole: Carbon rubber, multi-directional tread
+
+Weight: ~9.2 oz (Men’s US size 9)
+
+Heel-to-toe drop: 6 mm
+
+Sizes: US 5–13
+
+Internal heel counters
+
+PFC-free materials
+
+Suitable for casual and competitive running
+
+`,
   };
 
   return (

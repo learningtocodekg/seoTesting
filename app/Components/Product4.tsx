@@ -19,7 +19,9 @@ const ProductPage4 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner. Made in USA.',
+      `The Kaareen A is the ultimate, game-changing, next-generation unisex running shoe engineered with a breathable, ultra-lightweight, advanced engineered mesh upper that maximizes airflow, flexibility, and moisture-wicking performance. Featuring state-of-the-art, energy-returning, dual-density EVA foam cushioning technology designed for superior shock absorption and dynamic responsiveness, this shoe delivers unmatched comfort for marathon runners, sprinters, and fitness enthusiasts alike. The carbon rubber outsole is reinforced with rugged, high-abrasion resistant compounds and a multi-directional traction pattern optimized for all road surfaces, ensuring superior grip, durability, and injury prevention.
+
+At just 9.2 ounces (Men’s US size 9), the featherlight design promotes explosive speed and effortless stride efficiency, while the ergonomic 6 mm heel-to-toe drop enhances natural foot biomechanics and reduces fatigue. Integrated internal heel counters provide maximum stability, secure lockdown, and injury protection during intense training and competition. Available in a wide range of sizes from US 5 to 13, the Kaareen A is crafted with environmentally conscious, PFC-free, 80% recycled polyester materials to support sustainable athletic performance. Perfect for cross-training, endurance running, and everyday fitness, this shoe combines cutting-edge innovation with elite-level durability, style, and unmatched functionality.`,
   };
 
   return (
