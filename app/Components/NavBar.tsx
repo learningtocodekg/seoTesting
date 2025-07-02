@@ -35,7 +35,7 @@ const Navigation = () => {
                 currentPage === 'product' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 1
+              Product A
             </button>
           </Link>
 
@@ -46,7 +46,7 @@ const Navigation = () => {
                 currentPage === 'product2meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 2
+              Product B
             </button>
           </Link>
 
@@ -57,7 +57,7 @@ const Navigation = () => {
                 currentPage === 'product3meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 3
+              Product C
             </button>
           </Link>
 
@@ -68,7 +68,7 @@ const Navigation = () => {
                 currentPage === 'product2meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 4
+              Product D
             </button>
           </Link>
 

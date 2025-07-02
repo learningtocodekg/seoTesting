@@ -5,7 +5,7 @@ const ProductPage = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen Pulse Runner 1',
+    name: 'Kaareen A',
     category: "Men's Running Shoes",
     price: 120.00,
     rating: 4.5,

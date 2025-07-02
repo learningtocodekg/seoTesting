@@ -4,8 +4,8 @@ import ProductPage from '../Components/Product1';
 
 
 export const metadata: Metadata = {
-  title: 'Kaareen Pulse Runner',
-  description: 'Shop the Kaareen Pulse Runner, engineered for performance and comfort.',
+  title: 'Kaareen A',
+  description: 'Shop the Kaareen A, engineered for performance and comfort.',
 };
 
 export default function Product() {

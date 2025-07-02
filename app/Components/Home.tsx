@@ -4,14 +4,14 @@ import Link from 'next/link';
 const HomePage = () => {
   const products = [
     {
-      name: 'Kaareen Pulse Runner',
+      name: 'Kaareen',
       description: 'Lightweight for optimal speed',
       bgGradient: 'from-gray-200 to-gray-300',
       innerBg: 'bg-gray-400',
       textColor: 'text-gray-700',
     },
     {
-      name: 'Kaareen Pulse Runner',
+      name: 'Kaareen',
       description: 'Lightweight for optimal speed',
 
       bgGradient: 'from-gray-600 to-gray-500',
@@ -19,7 +19,7 @@ const HomePage = () => {
       textColor: 'text-white',
     },
     {
-      name: 'Kaareen Pulse Runner',
+      name: 'Kaareen',
       description: 'Lightweight for optimal speed',
       bgGradient: 'from-blue-400 to-teal-400',
       innerBg: 'bg-blue-500',
