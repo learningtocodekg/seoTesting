@@ -19,7 +19,7 @@ const ProductPage = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner. Made in China',
   };
 
   return (
@@ -48,7 +48,7 @@ const ProductPage = () => {
               <span className="text-sm text-gray-500">{product.category}</span>
             </div>
             <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
-            <div className="text-2xl font-bold text-gray-900">120.00</div>
+            <div className="text-2xl font-bold text-gray-900">${product.price}</div>
 
             {/* Rating */}
             <div className="flex items-center gap-4">

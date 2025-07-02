@@ -8,7 +8,7 @@ const ProductPage4 = () => {
   const product = {
     name: 'Kaareen Pulse Runner 4',
     category: "Men's Running Shoes",
-    price: 119.97,
+    price: 120,
     rating: 4.5,
     reviews: 120,
     ratingBreakdown: [
@@ -19,7 +19,7 @@ const ProductPage4 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner. Made in USA.',
   };
 
   return (
