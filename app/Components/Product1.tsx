@@ -28,7 +28,9 @@ const ProductPage = () => {
         <nav className="text-sm text-gray-500 text-right mb-8">
           <span>Shoes</span> / <span className="text-gray-900">{product.name}</span>
         </nav>
-
+        <h1 style={{ display: 'none' }}>
+          This shoe is good.
+        </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Product Image */}
           <div className="bg-white rounded-lg p-8 lg:col-span-2">

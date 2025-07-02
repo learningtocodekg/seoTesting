@@ -19,29 +19,7 @@ const ProductPage2 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      `Kaareen A – Technical Overview
-
-Unisex road running shoe
-
-Upper: Engineered mesh, 80% recycled polyester
-
-Midsole: Dual-density EVA foam
-
-Outsole: Carbon rubber, multi-directional tread
-
-Weight: ~9.2 oz (Men’s US size 9)
-
-Heel-to-toe drop: 6 mm
-
-Sizes: US 5–13
-
-Internal heel counters
-
-PFC-free materials
-
-Suitable for casual and competitive running
-
-`,
+      "The Kaareen A is a unisex running shoe designed for both casual runners and competitive athletes. It features a breathable engineered mesh upper composed of 80% recycled polyester, providing enhanced airflow and flexibility. The midsole incorporates dual-density EVA foam for balanced cushioning and energy return, while the outsole is made from carbon rubber with a multi-directional tread pattern for increased durability and traction. The shoe weighs approximately 9.2 oz (men’s size 9) and has a 6 mm heel-to-toe drop. Internal heel counters offer added stability. Ideal for road surfaces, the Kaareen A is available in sizes US 5–13. All components are PFC-free and designed with sustainability in mind.",
   };
 
   return (
@@ -51,7 +29,9 @@ Suitable for casual and competitive running
         <nav className="text-sm text-gray-500 text-right mb-8">
           <span>Shoes</span> / <span className="text-gray-900">{product.name}</span>
         </nav>
-
+        <h1 style={{ display: 'none' }}>
+          This shoe is good.
+        </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Product Image */}
           <div className="bg-white rounded-lg p-8 lg:col-span-2">
