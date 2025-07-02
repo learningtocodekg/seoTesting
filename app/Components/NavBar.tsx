@@ -95,19 +95,7 @@ const Navigation = () => {
           </Link>
 
 
-       {/* you need the brackets there
-          <Link href="/product/product7meta">
-            <button
-              onClick={() => setCurrentPage('product7meta')}
-              className={`text-base font-semibold transition-colors duration-300 ${
-                currentPage === 'product3meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
-              } hover:text-gray-900 px-2 py-1`}
-            >
-              Product 7
-            </button>
-          </Link>
-
-        */}
+    
 
         </div>
       </div>

@@ -1,4 +1,6 @@
+
 import type { Metadata } from 'next';
+import ProductPage from '../Components/Product1';
 import Product3 from './product2meta';
 
 
