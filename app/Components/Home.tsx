@@ -6,7 +6,6 @@ const HomePage = () => {
     {
       name: 'Kaareen Pulse Runner',
       description: 'Lightweight for optimal speed',
-      price: 109.99,
       bgGradient: 'from-gray-200 to-gray-300',
       innerBg: 'bg-gray-400',
       textColor: 'text-gray-700',
@@ -14,7 +13,7 @@ const HomePage = () => {
     {
       name: 'Kaareen Pulse Runner',
       description: 'Lightweight for optimal speed',
-      price: 109.99,
+
       bgGradient: 'from-gray-600 to-gray-500',
       innerBg: 'bg-gray-700',
       textColor: 'text-white',
@@ -22,7 +21,6 @@ const HomePage = () => {
     {
       name: 'Kaareen Pulse Runner',
       description: 'Lightweight for optimal speed',
-      price: 109.99,
       bgGradient: 'from-blue-400 to-teal-400',
       innerBg: 'bg-blue-500',
       textColor: 'text-white',
@@ -74,7 +72,7 @@ const HomePage = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
                 <p className="text-gray-600 mb-4">{product.description}</p>
-                <p className="text-xl font-bold text-blue-900">${product.price.toFixed(2)}</p>
+      
               </div>
             </div>
           ))}
@@ -95,7 +93,6 @@ const HomePage = () => {
               description: product.description,
               offers: {
                 '@type': 'Offer',
-                price: product.price,
                 priceCurrency: 'USD',
               },
             })),
