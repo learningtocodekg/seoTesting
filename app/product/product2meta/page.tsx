@@ -1,6 +1,5 @@
+import ProductPage2 from '@/app/Components/Product2';
 import type { Metadata } from 'next';
-
-import ProductPage2 from '../../Components/Product2';
 
 export const metadata: Metadata = {
   title: 'Kaareen Pulse Runner',
