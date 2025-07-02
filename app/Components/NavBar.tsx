@@ -11,7 +11,7 @@ const Navigation = () => {
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <div className="w-6 h-6 bg-black mr-3 rounded"></div>
-          <span className="text-2xl font-bold text-gray-900 tracking-tight">StrideForm</span>
+          <span className="text-2xl font-bold text-gray-900 tracking-tight">Kaareen</span>
         </div>
         <div className="flex gap-8 items-center">
 

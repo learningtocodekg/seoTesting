@@ -36,7 +36,7 @@ const HomePage = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.2),transparent_50%)] opacity-30 z-10"></div>
         <div className="relative max-w-6xl mx-auto px-6 py-24 text-center z-20 md:py-32">
           <h1 className="text-4xl font-extrabold mb-5 leading-tight md:text-6xl animate-[fadeIn_1s_ease-in-out]">
-            StrideForm: Step into Your Potential
+            Kaareen: Step into Your Potential
           </h1>
           <p className="text-lg mb-8 max-w-2xl mx-auto leading-relaxed opacity-90 md:text-xl">
             Discover footwear that blends comfort, style, and performance. Perfect for urban adventures or rugged trails.
