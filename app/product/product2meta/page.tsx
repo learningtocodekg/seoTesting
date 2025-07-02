@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import ProductPage from '../../Components/Product2';
+
 import ProductPage2 from '../../Components/Product2';
 
 export const metadata: Metadata = {
