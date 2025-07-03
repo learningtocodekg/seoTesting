@@ -6,7 +6,7 @@ const ProductPage2 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen B',
+    name: 'Kaareen QQ5',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +19,7 @@ const ProductPage2 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      "The Kaareen B is a unisex running shoe designed for both casual runners and competitive athletes. It features a breathable engineered mesh upper composed of 80% recycled polyester, providing enhanced airflow and flexibility. The midsole incorporates dual-density EVA foam for balanced cushioning and energy return, while the outsole is made from carbon rubber with a multi-directional tread pattern for increased durability and traction. The shoe weighs approximately 9.2 oz (men’s size 9) and has a 6 mm heel-to-toe drop. Internal heel counters offer added stability. Ideal for road surfaces, the Kaareen B is available in sizes US 5–13. All components are PFC-free and designed with sustainability in mind.",
+      "The Kaareen QQ5 is a unisex running shoe designed for both casual runners and competitive athletes. It features a breathable engineered mesh upper composed of 80% recycled polyester, providing enhanced airflow and flexibility. The midsole incorporates dual-density EVA foam for balanced cushioning and energy return, while the outsole is made from carbon rubber with a multi-directional tread pattern for increased durability and traction. The shoe weighs approximately 9.2 oz (men’s size 9) and has a 6 mm heel-to-toe drop. Internal heel counters offer added stability. Ideal for road surfaces, the Kaareen QQ5 is available in sizes US 5–13. All components are PFC-free and designed with sustainability in mind.",
   };
 
   return (
