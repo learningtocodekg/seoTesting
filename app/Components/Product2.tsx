@@ -48,7 +48,6 @@ const ProductPage2 = () => {
             </div>
             <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
             <div className="text-2xl font-bold text-gray-900">${product.price}</div>
-            <h1>BUY NOW for Better Life!</h1>
 
             {/* Rating */}
             <div className="flex items-center gap-4">
@@ -110,6 +109,11 @@ const ProductPage2 = () => {
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
               <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
             </div>
+          </div>
+          <div>
+            <h1>
+              ENDORSED BY Phil Knight, Michael Jordan, and Lionel Messi.
+            </h1>
           </div>
         </div>
       </div>
