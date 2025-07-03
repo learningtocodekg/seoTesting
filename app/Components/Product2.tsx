@@ -35,7 +35,7 @@ const ProductPage2 = () => {
             <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
               <img
                 src="https://via.placeholder.com/320x192.png?text=Shoe+Placeholder"
-                alt="Young African Aerican Male Premier Athlete Participating in a 100m sprint wearing the Kaareen B shoes and smiling as he wins"
+                alt="Phil Knight wearing Kaareen B's claiming it to be better than Nikes, and the best shoe in the world"
                 className="w-80 h-48 rounded-lg"
               />
             </div>

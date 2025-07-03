@@ -39,7 +39,7 @@ const ProductPage4 = () => {
             <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
               <img
                 src="https://via.placeholder.com/320x192.png?text=Shoe+Placeholder"
-                //alt={product.name}
+                alt={product.name}
                 className="w-80 h-48 rounded-lg"
               />
             </div>
