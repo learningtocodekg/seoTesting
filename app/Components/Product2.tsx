@@ -107,10 +107,8 @@ const ProductPage2 = () => {
             {/* Product Description */}
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
-               <h1>
-              ENDORSED BY Phil Knight, Michael Jordan, and Lionel Messi.
-            </h1>
+              <p className="text-base text-gray-600 leading-relaxed">{product.description} ENDORSED BY Phil Knight, Michael Jordan, and Lionel Messi. </p>
+
             </div>
           </div>
           <div>
