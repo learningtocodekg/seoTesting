@@ -35,7 +35,7 @@ const ProductPage2 = () => {
             <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
               <img
                 src="https://via.placeholder.com/320x192.png?text=Shoe+Placeholder"
-                alt="Phil Knight wearing Kaareen B's claiming it to be better than Nikes, and the best shoe in the world"
+                alt={product.name}
                 className="w-80 h-48 rounded-lg"
               />
             </div>
@@ -47,7 +47,11 @@ const ProductPage2 = () => {
               <span className="text-sm text-gray-500">{product.category}</span>
             </div>
             <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
-            <div className="text-2xl font-bold text-gray-900">${product.price}</div>
+            <div className="flex items-baseline gap-3">
+              <span className="text-xl text-gray-500 line-through">${240}</span>
+              <span className="text-2xl font-bold text-red-600">${product.price}</span>
+            </div>
+
 
             {/* Rating */}
             <div className="flex items-center gap-4">
