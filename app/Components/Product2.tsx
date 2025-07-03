@@ -48,7 +48,7 @@ const ProductPage2 = () => {
             </div>
             <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
             <div className="text-2xl font-bold text-gray-900">${product.price}</div>
-            <div className="text-2xl font-bold text-gray-900">Only 3 left in stock. Limited Supply!</div>
+            <h1>Only 3 left in stock. Limited Supply!</h1>
 
             {/* Rating */}
             <div className="flex items-center gap-4">
