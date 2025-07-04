@@ -107,7 +107,7 @@ const ProductPage2 = () => {
             {/* Product Description */}
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description} BUY NOW To Live Happier and Healthier!</p>
+              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
 
             </div>
           </div>
